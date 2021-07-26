@@ -1,0 +1,23 @@
+body {
+    /*background: linear-gradient(to right, #2ed573, #7bed9f);*/
+    background-color: #2C2C2C;
+    color: #3742fa;
+    font-family: 'Titillium Web', sans-serif;
+    margin: 0 50px;
+}
+body::-moz-selection {
+    color: #2ed573;
+    background-color: #3742fa;
+}
+body::selection {
+    color: #7bed9f;
+    background-color: #3742fa;
+}
+.img{
+    border: 2.5px solid #4a69bd;
+    border-radius: 10px;
+}
+.img:hover{
+    border: 3.5px solid #fd79a8;
+    transition: 100ms;
+}
